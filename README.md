@@ -31,4 +31,10 @@ When I'm bored, yes
 **Who asked these questions?**
 Well I don't know
 
+**How did you write this?**
+These two sites helped me creating it:
+[Writing a shell in 25 Lines of Ruby](https://www.rubyguides.com/2016/07/writing-a-shell-in-ruby/)
+[A Unix shell in Ruby](https://www.jstorimer.com/blogs/workingwithcode/7766107-a-unix-shell-in-ruby)
+
+
 
