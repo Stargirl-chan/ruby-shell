@@ -1,0 +1,18 @@
+hist
+j
+f
+f
+f
+f
+d
+k
+k
+k
+k
+k
+k
+./lambda.sh
+ruby mainrb
+ruby main.rb
+ruby main.rb
+ruby main.rb

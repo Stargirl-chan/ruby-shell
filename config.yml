@@ -1,2 +1,3 @@
-prompt: '>> '
-message: 'Welcome to Ruby Shell v1.1'
+prompt: 'λ '
+message: 'Welcome to Ruby Shell v1.23b'
+ascii: 'logo.txt'

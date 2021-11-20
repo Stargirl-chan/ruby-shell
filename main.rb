@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-# Ruby shell v1.1
+# Ruby Shell v1.24
 require 'readline'
 require 'shellwords'
 require 'socket'
@@ -54,6 +54,15 @@ builtin = {
 class String
   include Colors
 end
+
+# ascii art from ann1kab
+def render_ascii_art(string)
+  File.readlines(string) do |line|
+    puts line
+  end
+end
+
+puts render_ascii_art(config['ascii'])
 
 puts config['message'].blink.red
 begin
@@ -110,6 +119,12 @@ begin
   end
 rescue Interrupt => e
   # Ensuring that the shell still gets executed if interrupted
-  puts "\n"
+  puts "^C"
   retry
+rescue NoMethodError => d
+  puts "Quitting...".red
+  sleep 0.2
+rescue SystemExit => f 
+  puts "Quitting...".red
+  sleep 0.2
 end
